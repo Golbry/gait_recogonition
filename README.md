@@ -1,0 +1,2 @@
+# gait_recogonition
+使用RefineDet和GaitSet的步态识别系统
