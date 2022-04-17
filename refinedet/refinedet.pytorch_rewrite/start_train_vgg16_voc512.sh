@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 nohup python -u train_refinedet.py --dataset voc --input_size 512 --batch_size 16 --network vgg16 --base_model vgg16_reducedfc.pth --pretrained_folder "pretrained_model" --output_folder "output" > vgg16_voc512_nohup.out 2>&1 &
